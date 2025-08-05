@@ -112,15 +112,19 @@ Each pig has paired **pre** and **post** blast values for all six metrics.
 - **Group × Time interaction effect size** was computed using the change from pre to post for each group, standardized by the pooled standard deviation across groups.
 - **Cohen’s d** for interaction was computed per metric:
 
+$$
   \[
   d = \frac{(\text{ΔNoncollar} - \text{ΔCollar})}{\text{Pooled SD}}
   \]
+$$
 
 - **Eta squared (η²)** values were derived from interaction d values using:
 
+$$
   \[
   \eta^2 = \frac{d^2}{d^2 + 4}
   \]
+$$
 
 #### 3. Covariates
 
