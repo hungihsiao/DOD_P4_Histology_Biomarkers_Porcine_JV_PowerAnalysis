@@ -111,7 +111,7 @@ Each pig has paired **pre** and **post** blast values for all six metrics.
 
 - **Group × Time interaction effect size** was computed using the change from pre to post for each group, standardized by the pooled standard deviation across groups.
 - **Cohen’s d** for interaction was computed per metric:
-```r
+
   \[
   d = \frac{(\text{ΔNoncollar} - \text{ΔCollar})}{\text{Pooled SD}}
   \]
@@ -121,7 +121,7 @@ Each pig has paired **pre** and **post** blast values for all six metrics.
   \[
   \eta^2 = \frac{d^2}{d^2 + 4}
   \]
-```
+
 #### 3. Covariates
 
 While not explicitly modeled in this script, the full experimental design considers three covariates in ANCOVA models. These covariates (e.g., age, weight, scanner type) are assumed to be normally distributed and incorporated during power estimation.
